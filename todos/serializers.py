@@ -9,4 +9,4 @@ class TodoSerializer(serializers.HyperlinkedModelSerializer):
         # model to serialize
         model = Todo
         # fields to show in json
-        fields = ('id', 'date', 'name', 'data', 'phone_number', 'vin')
+        fields = ('id', 'subject', 'details')
